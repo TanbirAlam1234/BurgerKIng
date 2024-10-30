@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.out1 {
+  border: solid 1px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+#in1,
+#in2 {
+  border: solid 1px;
+  height: 100px;
+}
+#in1 {
+  width: 100px;
+}
+#in2 {
+  width: 600px;
+}
+#img1 {
+  height: 100px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  border: solid 1px;
+  height: 100px;
+  width: 110px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+ul li a:hover {
+  color: chartreuse;
+  background-color: black;
+  font-size: 30px;
+  font-style: italic;
+}
+.out2 {
+  border: solid 1px;
+  height: 700px;
+  background-image: url("burger23.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+}
+#welcome {
+  color: cyan;
+  font-size: 45px;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  /* text-shadow: 3px 2px 7px  */
+}
+#taste {
+  font-size: 28px;
+  margin-left: 90px;
+  margin-top: 70px;
+  color: white;
+}
+.out3 {
+  border: solid 1px;
+  height: 604px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+#in3,
+#in4 {
+  border: solid 1px;
+  height: 450px;
+}
+#in3 {
+  width: 450px;
+}
+#in4 {
+  width: 600px;
+}
+#about {
+  font-size: 45px;
+  margin-top: 40px;
+  color: white;
+}
+#text1 {
+  font-size: 23px;
+  color: white;
+}
+.out4 {
+  border: solid 1px;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+#in5,
+#in6,
+#in7 {
+  border: solid 1px;
+  width: 350px;
+  height: 600px;
+}
+#img2 {
+  margin-top: 60px;
+}
+#img3 {
+  margin-top: 20px;
+}
+#img4 {
+  margin-top: 30px;
+}
+#menu1 {
+  color: white;
+  text-align: center;
+}
+#menu2 {
+  color: white;
+  text-align: center;
+}
+#owes {
+  color: white;
+  font-size: 30px;
+}
